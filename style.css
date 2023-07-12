@@ -1,0 +1,27 @@
+
+.form-text:focus {
+    outline: none;
+    border: 5px solid red; 
+  }
+
+  li:nth-child(1) {
+    background-color: blue; 
+  }
+  
+  li:nth-child(2),
+  li:nth-child(4),
+  li:nth-child(6),
+  li:nth-child(8) {
+    background-color: purple;
+  }
+  
+  li:nth-child(3),
+  li:nth-child(5),
+  li:nth-child(7),
+  li:nth-child(9) {
+    background-color: gray; 
+  }
+  
+  li:nth-child(10) {
+    background-color: green;
+  }
